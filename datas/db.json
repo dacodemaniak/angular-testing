@@ -1,7 +1,7 @@
 {
     "users": [
-        { "id": 1, "username": "jlaubert", "password": "jla001"},
-        { "id": 2, "username": "user1", "password": "user1"}
+        { "id": 1, "username": "jlaubert", "password": "jla001", "roles": ["ADMIN"]},
+        { "id": 2, "username": "user1", "password": "user1", "roles": ["USER"]}
     ],
     "profiles": [
         {"id": 1, "lastname": "Durant", "firstname": "Juliette", "userId": 2},
